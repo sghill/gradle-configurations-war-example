@@ -18,6 +18,9 @@ Structure
     war-with-providedCompile-transitive
         providedCompile project(':transitive')
         compile 'com.google.guava:guava:20.0'
+    war-with-compileOnly-transitive
+        compileOnly project(':transitive')
+        compile 'com.google.guava:guava:20.0'
     war-without-transitive
         compile 'com.google.guava:guava:20.0'
 

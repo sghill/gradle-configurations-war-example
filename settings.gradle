@@ -1,2 +1,6 @@
-include 'transitive', 'war-with-transitive', 'war-without-transitive', 'war-with-providedCompile-transitive'
+include 'transitive', 
+    'war-with-transitive', 
+    'war-without-transitive', 
+    'war-with-providedCompile-transitive',
+    'war-with-compileOnly-transitive'
 
