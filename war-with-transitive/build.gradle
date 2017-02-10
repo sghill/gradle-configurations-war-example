@@ -1,0 +1,6 @@
+apply plugin: 'war'
+
+dependencies {
+    provided project(':transitive')
+    compile 'com.google.guava:guava:20.0'
+}
